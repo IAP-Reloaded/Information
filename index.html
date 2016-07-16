@@ -1,5 +1,5 @@
-<b>OS: </b><i id="os">hi</i>
-<b>Readable OS: </b><i id="osr">hi</i>
+<p><b>OS: </b><i id="os">hi</i></p>
+<p><b>Readable OS: </b><i id="osr">hi</i></p>
 
 <script>
 var OSName = "Unknown";
@@ -8,7 +8,7 @@ if (window.navigator.userAgent.indexOf("Windows NT 6.1") != -1) OSName="Windows 
 if (window.navigator.userAgent.indexOf("Windows NT 6.0") != -1) OSName="Windows Vista";
 if (window.navigator.userAgent.indexOf("Windows NT 5.1") != -1) OSName="Windows XP";
 if (window.navigator.userAgent.indexOf("Windows NT 5.0") != -1) OSName="Windows 2000";
-if (window.navigator.userAgent.indexOf("Mac")!=-1) OSName="Mac/iOS";
+if (window.navigator.userAgent.indexOf("Mac")!=-1) OSName="macOS/iOS";
 if (window.navigator.userAgent.indexOf("X11")!=-1) OSName="UNIX";
 if (window.navigator.userAgent.indexOf("Linux")!=-1) OSName="Linux";
 document.getElementById("os").innerHTML = window.navigator.platform;
